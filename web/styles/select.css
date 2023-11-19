@@ -1,0 +1,13 @@
+label {
+  color: white;
+}
+
+select {
+  margin: 1rem;
+  background-color: rgb(182, 235, 216);
+  border-radius: 1px;
+}
+
+select:hover {
+  cursor: pointer;
+}

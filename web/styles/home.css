@@ -1,0 +1,52 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dashboard > div {
+  background-color: #fff;
+  border: 0.5rem solid #000;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  min-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 24px;
+}
+.dashboard > div:nth-child(3n-1) {
+  box-shadow: 1rem 1rem 0rem #f0f;
+}
+.dashboard > div:nth-child(3n-2) {
+  box-shadow: 1rem 1rem 0rem #ff0;
+}
+.dashboard > div:nth-child(3n-3) {
+  box-shadow: 1rem 1rem 0rem #0ff;
+}
+.profile {
+  width: 95vw;
+}
+table {
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+table th + th,
+table td + td {
+  border-left: 0.4rem solid #fff;
+}
+table th {
+  border-bottom: 0.4rem solid #fff;
+}
+ul {
+  list-style-type: '✔️';
+  padding-left: 0.5rem;
+  margin: 1rem;
+}
